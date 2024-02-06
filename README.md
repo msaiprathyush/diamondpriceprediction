@@ -32,11 +32,25 @@ price: Price of the given Diamond.
 ![Home_page](https://github.com/msaiprathyush/diamondpriceprediction/assets/122264714/5b8e8d14-06a2-4be9-a989-2e754205891e)
 
 
-![predict](https://github.com/msaiprathyush/diamondpriceprediction/assets/122264714/70198c9c-bc7d-4ef3-8a8e-79ed07b6754b)
+![predict](https://github.com/msaiprathyush/diamondpriceprediction/assets/122264714/697e936f-4282-4656-933a-33b5585fe253)
+
 
 ![result](https://github.com/msaiprathyush/diamondpriceprediction/assets/122264714/07821843-fadf-426f-93a7-5611bd90bdac)
 
 ![Airflow](https://github.com/msaiprathyush/diamondpriceprediction/assets/122264714/1d7b497d-bb08-4bac-b6fc-53c249b28e76)
 
+To Run using src code!
+
+After pulling the repository to local begin by running pip install -r requirements_dev.txt.
+
+After Sucessfull installation of requirements_dev.txt run python setup.py install to install src into local package.
+
+Then run python app.py to access the model and when its running in the terminal goto localhost:8000\predict to access the price estimator.
+
+Fill the UI with your required values and click on submit to get the estimated price for the Diamond.
+
+Alternatively you can use Dockerfile to create dockerized container and it will automatically run app.py.
+
+Proceed to localhost:8000\predict to us the model for price estimate.
 
 
