@@ -26,6 +26,9 @@ Target variable:
 
 price: Price of the given Diamond.
 
+
+
+
 ![Home_page](https://github.com/msaiprathyush/diamondpriceprediction/assets/122264714/5b8e8d14-06a2-4be9-a989-2e754205891e)
 
 
