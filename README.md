@@ -25,3 +25,9 @@ x : Diamond Z dimension
 Target variable:
 
 price: Price of the given Diamond.
+
+
+![Airflow](https://github.com/msaiprathyush/diamondpriceprediction/assets/122264714/1d7b497d-bb08-4bac-b6fc-53c249b28e76)
+
+
+
