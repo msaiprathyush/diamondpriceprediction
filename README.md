@@ -26,11 +26,12 @@ Target variable:
 
 price: Price of the given Diamond.
 
-![Home](Home_page.PNG)
+![Home_page](https://github.com/msaiprathyush/diamondpriceprediction/assets/122264714/5b8e8d14-06a2-4be9-a989-2e754205891e)
 
-![Data_Capture](predict.PNG) 
 
-![result](result.PNG)
+![predict](https://github.com/msaiprathyush/diamondpriceprediction/assets/122264714/70198c9c-bc7d-4ef3-8a8e-79ed07b6754b)
+
+![result](https://github.com/msaiprathyush/diamondpriceprediction/assets/122264714/07821843-fadf-426f-93a7-5611bd90bdac)
 
 ![Airflow](https://github.com/msaiprathyush/diamondpriceprediction/assets/122264714/1d7b497d-bb08-4bac-b6fc-53c249b28e76)
 
