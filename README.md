@@ -58,7 +58,8 @@ Fill the UI with the required values and click on submit to get the estimated pr
 
 ![Home_page](https://github.com/msaiprathyush/diamondpriceprediction/assets/122264714/24f838c9-f737-4511-8ca7-d4a6bb0d3ec0)
 
-![Airflow](https://github.com/msaiprathyush/diamondpriceprediction/assets/122264714/9b667b59-e1ec-4464-b5de-06f436efac67)
+![predict](https://github.com/msaiprathyush/diamondpriceprediction/assets/122264714/d8943ec5-6d74-4ca8-b902-30b43dcdc1bf)
+
 ![result](https://github.com/msaiprathyush/diamondpriceprediction/assets/122264714/a18929b8-2284-43d6-a891-bf7af1bd696c)
 
 
