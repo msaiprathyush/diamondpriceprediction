@@ -1,56 +1,45 @@
-Introduction About the Data : The dataset The goal is to predict price of given diamond (Regression Analysis).
+# Diamond Price Prediction
 
-There are 10 independent variables (including id):
+## Introduction
 
-id : unique identifier of each diamond
+The goal of this project is to predict the price of given diamonds using regression analysis. The dataset contains various attributes of diamonds, such as carat weight, cut quality, color, clarity, dimensions, etc., which are used as independent variables to predict the price of the diamonds.
 
-carat : Carat (ct.) refers to the unique unit of weight measurement used exclusively to weigh gemstones and diamonds.
+## Dataset Description
 
-cut : Quality of Diamond Cut
+The dataset consists of the following attributes:
 
-color : Color of Diamond
+- **id**: Unique identifier of each diamond
+- **carat**: Carat weight of the diamond
+- **cut**: Quality of diamond cut
+- **color**: Color grade of the diamond
+- **clarity**: Clarity grade of the diamond
+- **depth**: Height of the diamond (in millimeters) measured from the bottom tip (culet) to the top surface (table)
+- **table**: Percentage of the diamond's width relative to its overall width
+- **x**: Length of the diamond (in millimeters)
+- **y**: Width of the diamond (in millimeters)
+- **z**: Depth of the diamond (in millimeters)
 
-clarity : Diamond clarity is a measure of the purity and rarity of the stone, graded by the visibility of these characteristics under 10-power magnification.
+## Target Variable
 
-depth : The depth of diamond is its height (in millimeters) measured from the culet (bottom tip) to the table (flat, top surface)
+- **price**: Price of the given diamond
 
-table : A diamond's table is the facet which can be seen when the stone is viewed face up.
+## Repository Structure
 
-x : Diamond X dimension
+The repository contains the following files and directories:
 
-y : Diamond Y dimension
+- **assets**: Directory containing images for README.md.
+- **src**: Directory containing source code for the project.
+- **requirements_dev.txt**: List of Python packages required for development.
+- **setup.py**: Script for installing the project as a local package.
+- **app.py**: Main application script.
+- **Dockerfile**: Dockerfile for creating a dockerized container.
+- **README.md**: Overview of the project and usage instructions.
 
-x : Diamond Z dimension
+## Usage
 
-Target variable:
+To run the project, follow these steps:
 
-price: Price of the given Diamond.
-
-
-
-
-![Home_page](https://github.com/msaiprathyush/diamondpriceprediction/assets/122264714/5b8e8d14-06a2-4be9-a989-2e754205891e)
-
-
-![predict](https://github.com/msaiprathyush/diamondpriceprediction/assets/122264714/697e936f-4282-4656-933a-33b5585fe253)
-
-
-![result](https://github.com/msaiprathyush/diamondpriceprediction/assets/122264714/07821843-fadf-426f-93a7-5611bd90bdac)
-
-![Airflow](https://github.com/msaiprathyush/diamondpriceprediction/assets/122264714/1d7b497d-bb08-4bac-b6fc-53c249b28e76)
-
-To Run using src code!
-
-After pulling the repository to local begin by running pip install -r requirements_dev.txt.
-
-After Sucessfull installation of requirements_dev.txt run python setup.py install to install src into local package.
-
-Then run python app.py to access the model and when its running in the terminal goto localhost:8000\predict to access the price estimator.
-
-Fill the UI with your required values and click on submit to get the estimated price for the Diamond.
-
-Alternatively you can use Dockerfile to create dockerized container and it will automatically run app.py.
-
-Proceed to localhost:8000\predict to us the model for price estimate.
-
-
+1. Clone the repository to your local machine.
+2. Install the required Python packages by running:
+   ```bash
+   pip install -r requirements_dev.txt
