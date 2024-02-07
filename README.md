@@ -43,3 +43,27 @@ To run the project, follow these steps:
 2. Install the required Python packages by running:
    ```bash
    pip install -r requirements_dev.txt
+3. Install source code as local package using:
+   ```bash
+   python setup.py install
+4. Run Script using:
+   ```bash
+   python app.py
+5. Alternatively, you can use Dockerfile to create a dockerized container and run the application.
+Access the model by navigating to localhost:8000/predict in your web browser.
+Fill the UI with the required values and click on submit to get the estimated price for the diamond.
+
+
+## Screenshots
+
+![Home_page](https://github.com/msaiprathyush/diamondpriceprediction/assets/122264714/24f838c9-f737-4511-8ca7-d4a6bb0d3ec0)
+
+![Airflow](https://github.com/msaiprathyush/diamondpriceprediction/assets/122264714/9b667b59-e1ec-4464-b5de-06f436efac67)
+![result](https://github.com/msaiprathyush/diamondpriceprediction/assets/122264714/a18929b8-2284-43d6-a891-bf7af1bd696c)
+
+
+License
+This project is licensed under the MIT License.
+
+Acknowledgements
+We would like to acknowledge the creators of the dataset for making it publicly available for research purposes.
